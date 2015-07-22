@@ -38,7 +38,7 @@ class Anagrams {
 	}
 }
 
-public class MainClass
+public class Main
 {
 	public static void main(String[] args) throws IOException
 	{
