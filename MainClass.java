@@ -1,5 +1,3 @@
-package com.test;
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -22,7 +20,7 @@ class Anagrams {
 		 
 		BufferedReader reader = new BufferedReader(new FileReader(filePath));
 		String fileContent = "";
-    	HashMap<String, String> map = new HashMap<String, String>();
+         	HashMap<String, String> map = new HashMap<String, String>();
 		
 		while ((fileContent = reader.readLine()) != null) {
 			
